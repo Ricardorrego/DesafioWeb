@@ -76,7 +76,7 @@ rake test_chrome_hmg_headless
     Navegador Chrome Updated
     chromedriver
     Gems do ruby (Gemfile)
-    CSV File of mass.
+    Data Mass - Fake gem.
 
 
 ### Basic Structure Project:
