@@ -26,31 +26,31 @@ gem install chromedriver-helper
 ### Run tests in DEV with Chrome
 Type this in the tests folder:
 ```shell
-bundle exec cucumber  -p ci -p html -p headless -p dev
+cucumber -p pretty -p html -p dev -p sem_headless
 ```
 
 ### Run tests in DEV with headless
 Type this in the tests folder:
 ```shell
-bundle exec cucumber  -p ci -p html -p headless -p dev
+cucumber -p html -p dev -p com_headless
 ```
 
 ### Run tests in HMG with Chrome
 Type this in the tests folder:
 ```shell
-bundle exec cucumber -p pretty -p html -p no_headless -p hmg
+cucumber -p pretty -p html -p homolog -p sem_headless
 ```
 
 ### Run tests in HMG with headless
 Type this in the tests folder:
 ```shell
-bundle exec cucumber -p ci -p html -p headless -p hmg
+cucumber -p html -p homolog -p com_headless
 ```
 
 ### Run with tags
 Type this in the tests folder:
 ```shell
-bundle exec cucumber --tags @run
+cucumber -t @criar_novo_cliente
 ```
 
 ### RakeFile - of reduced form we can use rake framework.
