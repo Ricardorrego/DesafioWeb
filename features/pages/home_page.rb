@@ -1,4 +1,4 @@
-class PageLogin < SitePrism::Page
+class HomePage < SitePrism::Page
     
     set_url '/admin'
     element :campo_email, 'input[name="email"]'

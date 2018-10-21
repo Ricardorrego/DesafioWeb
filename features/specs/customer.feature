@@ -1,6 +1,6 @@
 # language: pt
 
-Funcionalidade: Fazer login
+Funcionalidade: Realizar um novo cadastro de cliente
 
   -Eu como admin.
   -Eu quero criar um novo cliente.

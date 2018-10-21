@@ -1,4 +1,4 @@
-page_login = PageLogin.new
+page_login = HomePage.new
 page_contas = Contas.new
 
 Dado("que eu esteja logado no sistema.") do
